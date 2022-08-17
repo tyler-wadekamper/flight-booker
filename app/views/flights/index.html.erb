@@ -1,0 +1,20 @@
+<%= form_with url: flights_url, method: :get do |form| %>
+  <div>
+    <%= form.label :departure_airport, 'From: ' %>
+    <%= select_tag(:departure_airport, options_for_select(@airport_options)) %>
+  </div>
+
+  <div>
+    <%= form.label :arrival_airport, 'To: ' %>
+    <%= select_tag(:arrival_airport, options_for_select(@airport_options)) %>
+  </div>
+
+  <div>
+    <%= form.label :date, 'Date: ' %>
+    <%= form.date_field :date %>
+  </div>
+
+  <div>
+    <%= form.submit 'Search' %>
+  </div>
+<% end %>

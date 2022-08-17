@@ -1,450 +1,65 @@
 id,ident,name,continent,iso_country,iso_region,municipality,gps_code,iata_code
-3,AGGH,Honiara International Airport,OC,SB,SB-GU,Honiara,AGGH,HIR
-67,AYPY,Port Moresby Jacksons International Airport,OC,PG,PG-NCD,Port Moresby,AYPY,POM
-123,BIKF,Keflavik International Airport,EU,IS,IS-2,Reykjavík,BIKF,KEF
-1717,CYEG,Edmonton International Airport,NA,CA,CA-AB,Edmonton,CYEG,YEG
-1770,CYHZ,Halifax / Stanfield International Airport,NA,CA,CA-NS,Halifax,CYHZ,YHZ
-1840,CYOW,Ottawa Macdonald-Cartier International Airport,NA,CA,CA-ON,Ottawa,CYOW,YOW
-1864,CYQB,Quebec Jean Lesage International Airport,NA,CA,CA-QC,Quebec,CYQB,YQB
-1928,CYUL,Montreal / Pierre Elliott Trudeau International Airport,NA,CA,CA-QC,Montréal,CYUL,YUL
-1941,CYVR,Vancouver International Airport,NA,CA,CA-BC,Vancouver,CYVR,YVR
-1946,CYWG,Winnipeg / James Armstrong Richardson International Airport,NA,CA,CA-MB,Winnipeg,CYWG,YWG
-1969,CYXX,Abbotsford International Airport,NA,CA,CA-BC,Abbotsford,CYXX,YXX
-1973,CYYC,Calgary International Airport,NA,CA,CA-AB,Calgary,CYYC,YYC
-1979,CYYJ,Victoria International Airport,NA,CA,CA-BC,Victoria,CYYJ,YYJ
-1986,CYYT,St. John's International Airport,NA,CA,CA-NL,St. John's,CYYT,YYT
-1990,CYYZ,Lester B. Pearson International Airport,NA,CA,CA-ON,Toronto,CYYZ,YYZ
-2050,DAAG,Houari Boumediene Airport,AF,DZ,DZ-16,Algiers,DAAG,ALG
-2090,DGAA,Kotoka International Airport,AF,GH,GH-AA,Accra,DGAA,ACC
-2104,DNAA,Nnamdi Azikiwe International Airport,AF,NG,NG-FC,Abuja,DNAA,ABV
-2118,DNMM,Murtala Muhammed International Airport,AF,NG,NG-LA,Lagos,DNMM,LOS
-2125,DRRN,Diori Hamani International Airport,AF,NE,NE-8,Niamey,DRRN,NIM
-2133,DTTA,Tunis Carthage International Airport,AF,TN,TN-11,Tunis,DTTA,TUN
-2155,EBBR,Brussels Airport,EU,BE,BE-BRU,Brussels,EBBR,BRU
-301881,EDDB,Berlin Brandenburg Airport,EU,DE,DE-BR,Berlin,EDDB,BER
-2212,EDDF,Frankfurt am Main Airport,EU,DE,DE-HE,Frankfurt am Main,EDDF,FRA
-2214,EDDH,Hamburg Helmut Schmidt Airport,EU,DE,DE-HH,Hamburg,EDDH,HAM
-2216,EDDK,Cologne Bonn Airport,EU,DE,DE-NW,Cologne,EDDK,CGN
-2217,EDDL,Düsseldorf Airport,EU,DE,DE-NW,Düsseldorf,EDDL,DUS
-2218,EDDM,Munich Airport,EU,DE,DE-BY,Munich,EDDM,MUC
-2219,EDDN,Nuremberg Airport,EU,DE,DE-BY,Nuremberg,EDDN,NUE
-2220,EDDP,Leipzig/Halle Airport,EU,DE,DE-SN,Leipzig,EDDP,LEJ
-2222,EDDS,Stuttgart Airport,EU,DE,DE-BW,Stuttgart,EDDS,STR
-2224,EDDV,Hannover Airport,EU,DE,DE-NI,Hannover,EDDV,HAJ
-2301,EETN,Lennart Meri Tallinn Airport,EU,EE,EE-37,Tallinn,EETN,TLL
-2307,EFHK,Helsinki Vantaa Airport,EU,FI,FI-18,Helsinki,EFHK,HEL
-2385,EGAA,Belfast International Airport,EU,GB,GB-NIR,Belfast,EGAA,BFS
-2389,EGBB,Birmingham International Airport,EU,GB,GB-ENG,Birmingham,EGBB,BHX
-2398,EGCC,Manchester Airport,EU,GB,GB-ENG,Manchester,EGCC,MAN
-2419,EGGW,London Luton Airport,EU,GB,GB-ENG,London,EGGW,LTN
-2429,EGKK,London Gatwick Airport,EU,GB,GB-ENG,London,EGKK,LGW
-2434,EGLL,London Heathrow Airport,EU,GB,GB-ENG,London,EGLL,LHR
-2461,EGPF,Glasgow International Airport,EU,GB,GB-SCT,"Paisley, Renfrewshire",EGPF,GLA
-2462,EGPH,Edinburgh Airport,EU,GB,GB-SCT,Edinburgh,EGPH,EDI
-2476,EGSS,London Stansted Airport,EU,GB,GB-ENG,London,EGSS,STN
-2513,EHAM,Amsterdam Airport Schiphol,EU,NL,NL-NH,Amsterdam,EHAM,AMS
-2518,EHEH,Eindhoven Airport,EU,NL,NL-NB,Eindhoven,EHEH,EIN
-2533,EIDW,Dublin Airport,EU,IE,IE-D,Dublin,EIDW,DUB
-2537,EINN,Shannon Airport,EU,IE,IE-CE,Shannon,EINN,SNN
-2541,EKBI,Billund Airport,EU,DK,DK-83,Billund,EKBI,BLL
-2542,EKCH,Copenhagen Kastrup Airport,EU,DK,DK-84,Copenhagen,EKCH,CPH
-2563,ELLX,Luxembourg-Findel International Airport,EU,LU,LU-L,Luxembourg,ELLX,LUX
-2570,ENBR,"Bergen Airport, Flesland",EU,NO,NO-46,Bergen,ENBR,BGO
-2578,ENGM,"Oslo Airport, Gardermoen",EU,NO,NO-30,Oslo,ENGM,OSL
-2599,ENTC,"Tromsø Airport, Langnes",EU,NO,NO-54,Tromsø,ENTC,TOS
-2601,ENVA,"Trondheim Airport, Værnes",EU,NO,NO-50,Trondheim,ENVA,TRD
-2602,ENZV,"Stavanger Airport, Sola",EU,NO,NO-11,Stavanger,ENZV,SVG
-2608,EPGD,Gdańsk Lech Wałęsa Airport,EU,PL,PL-PM,Gdańsk,EPGD,GDN
-2609,EPKK,Kraków John Paul II International Airport,EU,PL,PL-MA,Kraków,EPKK,KRK
-2637,EPWA,Warsaw Chopin Airport,EU,PL,PL-MZ,Warsaw,EPWA,WAW
-2648,ESGG,Gothenburg-Landvetter Airport,EU,SE,SE-Q,Gothenburg,ESGG,GOT
-2701,ESSA,Stockholm-Arlanda Airport,EU,SE,SE-AB,Stockholm,ESSA,ARN
-2758,EVRA,Riga International Airport,EU,LV,LV-062,Riga,EVRA,RIX
-2766,EYVI,Vilnius International Airport,EU,LT,LT-VL,Vilnius,EYVI,VNO
-2775,FACT,Cape Town International Airport,AF,ZA,ZA-WC,Cape Town,FACT,CPT
-300795,FALE,King Shaka International Airport,AF,ZA,ZA-NL,Durban,FALE,DUR
-31055,FAOR,OR Tambo International Airport,AF,ZA,ZA-GT,Johannesburg,FAOR,JNB
-2864,FBSK,Sir Seretse Khama International Airport,AF,BW,BW-GA,Gaborone,FBSK,GBE
-308033,FDSK,King Mswati III International Airport,AF,SZ,SZ-LU,Mpaka,FDSK,SHO
-2878,FIMP,Sir Seewoosagur Ramgoolam International Airport,AF,MU,MU-GP,Plaine Magnein,FIMP,MRU
-2894,FLLS,Kenneth Kaunda International Airport,AF,ZM,ZM-09,Lusaka,FLKK,LUN
-2905,FMEE,Roland Garros Airport,AF,RE,RE-U-A,St Denis,FMEE,RUN
-2908,FMMI,Ivato Airport,AF,MG,MG-T,Antananarivo,FMMI,TNR
-2942,FNLU,Quatro de Fevereiro International Airport,AF,AO,AO-LUA,Luanda,FNLU,LAD
-2975,FQMA,Maputo Airport,AF,MZ,MZ-MPM,Maputo,FQMA,MPM
-2993,FSIA,Seychelles International Airport,AF,SC,SC-20,Mahe Island,FSIA,SEZ
-2998,FTTJ,N'Djamena International Airport,AF,TD,TD-CB,N'Djamena,FTTJ,NDJ
-3005,FVHA,Robert Gabriel Mugabe International Airport,AF,ZW,ZW-HA,Harare,FVRG,HRE
-3039,FYWH,Hosea Kutako International Airport,AF,NA,NA-KH,Windhoek,FYWH,WDH
-3040,FZAA,Ndjili International Airport,AF,CD,CD-KN,Kinshasa,FZAA,FIH
-3066,GABS,Modibo Keita International Airport,AF,ML,ML-2,Bamako,GABS,BKO
-3076,GBYD,Banjul International Airport,AF,GM,GM-W,Banjul,GBYD,BJL
-3077,GCFV,Fuerteventura Airport,EU,ES,ES-CN,Fuerteventura Island,GCFV,FUE
-3081,GCLP,Gran Canaria Airport,EU,ES,ES-CN,Gran Canaria Island,GCLP,LPA
-3082,GCRR,César Manrique-Lanzarote Airport,EU,ES,ES-CN,Lanzarote Island,GCRR,ACE
-3083,GCTS,Tenerife Sur Airport,EU,ES,ES-CN,Tenerife,GCTS,TFS
-3095,GFLL,Lungi International Airport,AF,SL,SL-N,Freetown (Lungi-Town),GFLL,FNA
-3099,GLRB,Roberts International Airport,AF,LR,LR-MG,Monrovia,GLRB,ROB
-3113,GMMN,Mohammed V International Airport,AF,MA,MA-CAS,Casablanca,GMMN,CMN
-325736,GOBD,Blaise Diagne International Airport,AF,SN,SN-DK,Dakar,GOBD,DSS
-323315,GQNO,Nouakchott–Oumtounsy International Airport,AF,MR,MR-NKC,Nouakchott,GQNO,NKC
-3150,GVAC,Amílcar Cabral International Airport,AF,CV,CV-B,Espargos,GVAC,SID
-3157,HAAB,Addis Ababa Bole International Airport,AF,ET,ET-AA,Addis Ababa,HAAB,ADD
-3174,HDAM,Djibouti-Ambouli Airport,AF,DJ,DJ-DJ,Djibouti City,HDAM,JIB
-3183,HECA,Cairo International Airport,AF,EG,EG-C,Cairo,HECA,CAI
-3186,HEGN,Hurghada International Airport,AF,EG,EG-BA,Hurghada,HEGN,HRG
-3198,HESH,Sharm El Sheikh International Airport,AS,EG,EG-JS,Sharm el-Sheikh,HESH,SSH
-3247,HJJJ,Juba International Airport,AF,SS,SS-17,Juba,HJJJ,JUB
-3206,HKJK,Jomo Kenyatta International Airport,AF,KE,KE-110,Nairobi,HKJK,NBO
-3213,HKMO,Moi International Airport,AF,KE,KE-300,Mombasa,HKMO,MBA
-3227,HLLT,Tripoli International Airport,AF,LY,LY-TB,Tripoli,HLLT,TIP
-3237,HRYR,Kigali International Airport,AF,RW,RW-01,Kigali,HRYR,KGL
-3249,HSSK,Khartoum International Airport,AF,SD,SD-03,Khartoum,HSSK,KRT
-3251,HTDA,Julius Nyerere International Airport,AF,TZ,TZ-02,Dar es Salaam,HTDA,DAR
-3260,HTZA,Abeid Amani Karume International Airport,AF,TZ,TZ-07,Zanzibar,HTZA,ZNZ
-3263,HUEN,Entebbe International Airport,AF,UG,UG-C,Kampala,HUEN,EBB
-3364,KADW,Joint Base Andrews,NA,US,US-MD,Camp Springs,KADW,ADW
-3384,KATL,Hartsfield Jackson Atlanta International Airport,NA,US,US-GA,Atlanta,KATL,ATL
 3386,KAUS,Austin Bergstrom International Airport,NA,US,US-TX,Austin,KAUS,AUS
-3420,KBNA,Nashville International Airport,NA,US,US-TN,Nashville,KBNA,BNA
-3422,KBOS,Logan International Airport,NA,US,US-MA,Boston,KBOS,BOS
 3431,KBUF,Buffalo Niagara International Airport,NA,US,US-NY,Buffalo,KBUF,BUF
-3435,KBWI,Baltimore/Washington International Thurgood Marshall Airport,NA,US,US-MD,Baltimore,KBWI,BWI
-3454,KCLE,Cleveland Hopkins International Airport,NA,US,US-OH,Cleveland,KCLE,CLE
 3457,KCLT,Charlotte Douglas International Airport,NA,US,US-NC,Charlotte,KCLT,CLT
-19517,KCMA,Camarillo International Airport,NA,US,US-CA,Camarillo,KCMA,
-3458,KCMH,John Glenn Columbus International Airport,NA,US,US-OH,Columbus,KCMH,CMH
+3673,KMDW,Chicago Midway International Airport,NA,US,US-IL,Chicago,KMDW,MDW
+3754,KORD,Chicago O'Hare International Airport,NA,US,US-IL,Chicago,KORD,ORD
 3471,KCVG,Cincinnati Northern Kentucky International Airport,NA,US,US-KY,Cincinnati / Covington,KCVG,CVG
-3483,KDCA,Ronald Reagan Washington National Airport,NA,US,US-DC,Washington,KDCA,DCA
-3486,KDEN,Denver International Airport,NA,US,US-CO,Denver,KDEN,DEN
+3454,KCLE,Cleveland Hopkins International Airport,NA,US,US-OH,Cleveland,KCLE,CLE
 3488,KDFW,Dallas Fort Worth International Airport,NA,US,US-TX,Dallas-Fort Worth,KDFW,DFW
+5453,PHNL,Daniel K Inouye International Airport,OC,US,US-HI,Honolulu,PHNL,HNL
+3486,KDEN,Denver International Airport,NA,US,US-CO,Denver,KDEN,DEN
 3497,KDTW,Detroit Metropolitan Wayne County Airport,NA,US,US-MI,Detroit,KDTW,DTW
-3521,KEWR,Newark Liberty International Airport,NA,US,US-NJ,New York,KEWR,EWR
+5360,PAFA,Fairbanks International Airport,NA,US,US-AK,Fairbanks,PAFA,FAI
 3531,KFLL,Fort Lauderdale Hollywood International Airport,NA,US,US-FL,Fort Lauderdale,KFLL,FLL
-3602,KIAD,Washington Dulles International Airport,NA,US,US-VA,"Washington, DC",KIAD,IAD
+3690,KMKE,General Mitchell International Airport,NA,US,US-WI,Milwaukee,KMKE,MKE
 3604,KIAH,George Bush Intercontinental Houston Airport,NA,US,US-TX,Houston,KIAH,IAH
+3384,KATL,Hartsfield Jackson Atlanta International Airport,NA,US,US-GA,Atlanta,KATL,ATL
 3610,KIND,Indianapolis International Airport,NA,US,US-IN,Indianapolis,KIND,IND
 3620,KJAX,Jacksonville International Airport,NA,US,US-FL,Jacksonville,KJAX,JAX
 3622,KJFK,John F Kennedy International Airport,NA,US,US-NY,New York,KJFK,JFK
-3631,KLAS,McCarran International Airport,NA,US,US-NV,Las Vegas,KLAS,LAS
-3632,KLAX,Los Angeles International Airport,NA,US,US-CA,Los Angeles,KLAX,LAX
-3643,KLGA,La Guardia Airport,NA,US,US-NY,New York,KLGA,LGA
+3458,KCMH,John Glenn Columbus International Airport,NA,US,US-OH,Columbus,KCMH,CMH
+3894,KSNA,John Wayne Airport-Orange County Airport,NA,US,US-CA,Santa Ana,KSNA,SNA
+3364,KADW,Joint Base Andrews,NA,US,US-MD,Camp Springs,KADW,ADW
 3668,KMCI,Kansas City International Airport,NA,US,US-MO,Kansas City,KMCI,MCI
-3670,KMCO,Orlando International Airport,NA,US,US-FL,Orlando,KMCO,MCO
-3673,KMDW,Chicago Midway International Airport,NA,US,US-IL,Chicago,KMDW,MDW
-3675,KMEM,Memphis International Airport,NA,US,US-TN,Memphis,KMEM,MEM
-3685,KMIA,Miami International Airport,NA,US,US-FL,Miami,KMIA,MIA
-3690,KMKE,General Mitchell International Airport,NA,US,US-WI,Milwaukee,KMKE,MKE
-3709,KMSP,Minneapolis–Saint Paul International Airport / Wold–Chamberlain Field,NA,US,US-MN,Minneapolis,KMSP,MSP
+3643,KLGA,La Guardia Airport,NA,US,US-NY,New York,KLGA,LGA
+3422,KBOS,Logan International Airport,NA,US,US-MA,Boston,KBOS,BOS
+3632,KLAX,Los Angeles International Airport,NA,US,US-CA,Los Angeles,KLAX,LAX
 3711,KMSY,Louis Armstrong New Orleans International Airport,NA,US,US-LA,New Orleans,KMSY,MSY
+3873,KSDF,Louisville Muhammad Ali International Airport,NA,US,US-KY,Louisville,KSDF,SDF
+3631,KLAS,McCarran International Airport,NA,US,US-NV,Las Vegas,KLAS,LAS
+3675,KMEM,Memphis International Airport,NA,US,US-TN,Memphis,KMEM,MEM
 3744,KOAK,Metropolitan Oakland International Airport,NA,US,US-CA,Oakland,KOAK,OAK
+3685,KMIA,Miami International Airport,NA,US,US-FL,Miami,KMIA,MIA
+3709,KMSP,Minneapolis–Saint Paul International Airport / Wold–Chamberlain Field,NA,US,US-MN,Minneapolis,KMSP,MSP
+3420,KBNA,Nashville International Airport,NA,US,US-TN,Nashville,KBNA,BNA
+3521,KEWR,Newark Liberty International Airport,NA,US,US-NJ,New York,KEWR,EWR
+3883,KSJC,Norman Y. Mineta San Jose International Airport,NA,US,US-CA,San Jose,KSJC,SJC
 3752,KONT,Ontario International Airport,NA,US,US-CA,Ontario,KONT,ONT
-3754,KORD,Chicago O'Hare International Airport,NA,US,US-IL,Chicago,KORD,ORD
+3670,KMCO,Orlando International Airport,NA,US,US-FL,Orlando,KMCO,MCO
+3876,KSFB,Orlando Sanford International Airport,NA,US,US-FL,Orlando,KSFB,SFB
 3766,KPBI,Palm Beach International Airport,NA,US,US-FL,West Palm Beach,KPBI,PBI
-3768,KPDX,Portland International Airport,NA,US,US-OR,Portland,KPDX,PDX
 3771,KPHL,Philadelphia International Airport,NA,US,US-PA,Philadelphia,KPHL,PHL
 3772,KPHX,Phoenix Sky Harbor International Airport,NA,US,US-AZ,Phoenix,KPHX,PHX
 3778,KPIT,Pittsburgh International Airport,NA,US,US-PA,Pittsburgh,KPIT,PIT
-3795,KPVD,Theodore Francis Green State Airport,NA,US,US-RI,Providence,KPVD,PVD
-3796,KPWM,Portland International Jetport,NA,US,US-ME,Portland,KPWM,PWM
+3768,KPDX,Portland International Airport,NA,US,US-OR,Portland,KPDX,PDX
 3844,KRDU,Raleigh Durham International Airport,NA,US,US-NC,Raleigh/Durham,KRDU,RDU
-3847,KRIC,Richmond International Airport,NA,US,US-VA,Richmond,KRIC,RIC
 3853,KRNO,Reno Tahoe International Airport,NA,US,US-NV,Reno,KRNO,RNO
-3858,KRSW,Southwest Florida International Airport,NA,US,US-FL,Fort Myers,KRSW,RSW
-3862,KSAN,San Diego International Airport,NA,US,US-CA,San Diego,KSAN,SAN
-3863,KSAT,San Antonio International Airport,NA,US,US-TX,San Antonio,KSAT,SAT
-3864,KSAV,Savannah Hilton Head International Airport,NA,US,US-GA,Savannah,KSAV,SAV
-3873,KSDF,Louisville Muhammad Ali International Airport,NA,US,US-KY,Louisville,KSDF,SDF
-3875,KSEA,Seattle Tacoma International Airport,NA,US,US-WA,Seattle,KSEA,SEA
-3876,KSFB,Orlando Sanford International Airport,NA,US,US-FL,Orlando,KSFB,SFB
-3878,KSFO,San Francisco International Airport,NA,US,US-CA,San Francisco,KSFO,SFO
-3883,KSJC,Norman Y. Mineta San Jose International Airport,NA,US,US-CA,San Jose,KSJC,SJC
-3887,KSLC,Salt Lake City International Airport,NA,US,US-UT,Salt Lake City,KSLC,SLC
+3847,KRIC,Richmond International Airport,NA,US,US-VA,Richmond,KRIC,RIC
+3483,KDCA,Ronald Reagan Washington National Airport,NA,US,US-DC,Washington,KDCA,DCA
 3892,KSMF,Sacramento International Airport,NA,US,US-CA,Sacramento,KSMF,SMF
-3894,KSNA,John Wayne Airport-Orange County Airport,NA,US,US-CA,Santa Ana,KSNA,SNA
+3887,KSLC,Salt Lake City International Airport,NA,US,US-UT,Salt Lake City,KSLC,SLC
+3863,KSAT,San Antonio International Airport,NA,US,US-TX,San Antonio,KSAT,SAT
+3862,KSAN,San Diego International Airport,NA,US,US-CA,San Diego,KSAN,SAN
+3878,KSFO,San Francisco International Airport,NA,US,US-CA,San Francisco,KSFO,SFO
+3864,KSAV,Savannah Hilton Head International Airport,NA,US,US-GA,Savannah,KSAV,SAV
+3875,KSEA,Seattle Tacoma International Airport,NA,US,US-WA,Seattle,KSEA,SEA
+3858,KRSW,Southwest Florida International Airport,NA,US,US-FL,Fort Myers,KRSW,RSW
 3905,KSTL,St Louis Lambert International Airport,NA,US,US-MO,St Louis,KSTL,STL
 3913,KSYR,Syracuse Hancock International Airport,NA,US,US-NY,Syracuse,KSYR,SYR
 3926,KTPA,Tampa International Airport,NA,US,US-FL,Tampa,KTPA,TPA
-3930,KTUL,Tulsa International Airport,NA,US,US-OK,Tulsa,KTUL,TUL
-3972,LATI,Tirana International Airport Mother Teresa,EU,AL,AL-11,Tirana,LATI,TIA
-3974,LBBG,Burgas Airport,EU,BG,BG-02,Burgas,LBBG,BOJ
-3977,LBSF,Sofia Airport,EU,BG,BG-23,Sofia,LBSF,SOF
-3979,LBWN,Varna Airport,EU,BG,BG-03,Varna,LBWN,VAR
-3980,LCLK,Larnaca International Airport,AS,CY,CY-04,Larnaca,LCLK,LCA
-3993,LDZA,Zagreb Airport,EU,HR,HR-21,Zagreb,LDZA,ZAG
-3997,LEAL,Alicante-Elche Miguel Hernández Airport,EU,ES,ES-V,Alicante,LEAL,ALC
-4004,LEBL,Josep Tarradellas Barcelona-El Prat Airport,EU,ES,ES-CT,Barcelona,LEBL,BCN
-4013,LEIB,Ibiza Airport,EU,ES,ES-PM,Ibiza,LEIB,IBZ
-4019,LEMD,Adolfo Suárez Madrid–Barajas Airport,EU,ES,ES-M,Madrid,LEMD,MAD
-4020,LEMG,Málaga-Costa del Sol Airport,EU,ES,ES-AN,Málaga,LEMG,AGP
-4035,LEPA,Palma de Mallorca Airport,EU,ES,ES-PM,Palma De Mallorca,LEPA,PMI
-4038,LEST,Santiago-Rosalía de Castro Airport,EU,ES,ES-GA,Santiago de Compostela,LEST,SCQ
-4060,LFBD,Bordeaux-Mérignac Airport,EU,FR,FR-NAQ,Bordeaux/Mérignac,LFBD,BOD
-4070,LFBO,Toulouse-Blagnac Airport,EU,FR,FR-OCC,Toulouse/Blagnac,LFBO,TLS
-4137,LFLL,Lyon Saint-Exupéry Airport,EU,FR,FR-ARA,Lyon,LFLL,LYS
-4155,LFML,Marseille Provence Airport,EU,FR,FR-PAC,Marseille,LFML,MRS
-4156,LFMN,Nice-Côte d'Azur Airport,EU,FR,FR-PAC,Nice,LFMN,NCE
-4185,LFPG,Charles de Gaulle International Airport,EU,FR,FR-IDF,Paris,LFPG,CDG
-4189,LFPO,Paris-Orly Airport,EU,FR,FR-IDF,Paris,LFPO,ORY
-4226,LFSB,EuroAirport Basel-Mulhouse-Freiburg Airport,EU,FR,FR-GES,Bâle/Mulhouse,LFSB,BSL
-4251,LGAV,Athens Eleftherios Venizelos International Airport,EU,GR,GR-I,Athens,LGAV,ATH
-4258,LGIR,Heraklion International Nikos Kazantzakis Airport,EU,GR,GR-91,Heraklion,LGIR,HER
-4293,LGTS,Thessaloniki Macedonia International Airport,EU,GR,GR-54,Thessaloniki,LGTS,SKG
-4296,LHBP,Budapest Liszt Ferenc International Airport,EU,HU,HU-PE,Budapest,LHBP,BUD
-4310,LIBD,Bari Karol Wojtyła Airport,EU,IT,IT-75,Bari,LIBD,BRI
-4315,LIBR,Brindisi Airport,EU,IT,IT-75,Brindisi,LIBR,BDS
-4318,LICC,Catania-Fontanarossa Airport,EU,IT,IT-82,Catania,LICC,CTA
-4321,LICJ,Falcone–Borsellino Airport,EU,IT,IT-82,Palermo,LICJ,PMO
-4332,LIEE,Cagliari Elmas Airport,EU,IT,IT-88,Cagliari,LIEE,CAG
-4340,LIMC,Malpensa International Airport,EU,IT,IT-25,Milan,LIMC,MXP
-4341,LIME,Milan Bergamo Airport,EU,IT,IT-25,Milan,LIME,BGY
-4342,LIMF,Turin Airport,EU,IT,IT-21,Torino,LIMF,TRN
-4354,LIPE,Bologna Guglielmo Marconi Airport,EU,IT,IT-45,Bologna,LIPE,BLQ
-4366,LIPX,Verona-Villafranca Valerio Catullo Airport,EU,IT,IT-34,Villafranca di Verona,LIPX,VRN
-4368,LIPZ,Venice Marco Polo Airport,EU,IT,IT-34,Venice,LIPZ,VCE
-4372,LIRF,Rome–Fiumicino Leonardo da Vinci International Airport,EU,IT,IT-62,Rome,LIRF,FCO
-4378,LIRN,Naples International Airport,EU,IT,IT-72,Nápoli,LIRN,NAP
-4379,LIRP,Pisa International Airport,EU,IT,IT-52,Pisa,LIRP,PSA
-4386,LJLJ,Ljubljana Jože Pučnik Airport,EU,SI,SI-061,Ljubljana,LJLJ,LJU
-4408,LKPR,Václav Havel Airport Prague,EU,CZ,CZ-PR,Prague,LKPR,PRG
-4411,LLBG,Ben Gurion International Airport,AS,IL,IL-M,Tel Aviv,LLBG,TLV
-330388,LLER,Ramon International Airport,AS,IL,IL-D,Eilat,LLER,ETM
-4427,LMML,Malta International Airport,EU,MT,MT-25,Valletta,LMML,MLA
-4434,LOWW,Vienna International Airport,EU,AT,AT-9,Vienna,LOWW,VIE
-4448,LPFR,Faro Airport,EU,PT,PT-08,Faro,LPFR,FAO
-4456,LPPD,João Paulo II Airport,EU,PT,PT-20,Ponta Delgada,LPPD,PDL
-4459,LPPR,Francisco de Sá Carneiro Airport,EU,PT,PT-13,Porto,LPPR,OPO
-4461,LPPT,Humberto Delgado Airport (Lisbon Portela Airport),EU,PT,PT-11,Lisbon,LPPT,LIS
-4482,LROP,Henri Coandă International Airport,EU,RO,RO-IF,Bucharest,LROP,OTP
-4490,LSGG,Geneva Cointrin International Airport,EU,CH,CH-GE,Geneva,LSGG,GVA
-4505,LSZH,Zürich Airport,EU,CH,CH-ZH,Zurich,LSZH,ZRH
-4509,LTAC,Esenboğa International Airport,AS,TR,TR-06,Ankara,LTAC,ESB
-4515,LTAI,Antalya International Airport,AS,TR,TR-07,Antalya,LTAI,AYT
-4528,LTBA,İstanbul Atatürk Airport,EU,TR,TR-34,"Bakırköy, Istanbul",LTBA,ISL
-4533,LTBJ,Adnan Menderes International Airport,AS,TR,TR-35,İzmir,LTBJ,ADB
-4542,LTBS,Dalaman International Airport,AS,TR,TR-48,Dalaman,LTBS,DLM
-4567,LTFE,Milas Bodrum International Airport,AS,TR,TR-48,Bodrum,LTFE,BJV
-4569,LTFJ,Istanbul Sabiha Gökçen International Airport,AS,TR,TR-34,"Pendik, Istanbul",LTFJ,SAW
-317457,LTFM,İstanbul Airport,EU,TR,TR-34,"Arnavutköy, Istanbul",LTFM,IST
-4573,LWSK,Skopje International Airport,EU,MK,MK-004,Skopje,LWSK,SKP
-4610,LYBE,Belgrade Nikola Tesla Airport,EU,RS,RS-00,Belgrade,LYBE,BEG
-4613,LYPG,Podgorica Airport / Podgorica Golubovci Airbase,EU,ME,ME-16,Podgorica,LYPG,TGD
-4617,LZIB,M. R. Štefánik Airport,EU,SK,SK-BL,Bratislava,LZIB,BTS
-4628,MBPV,Providenciales International Airport,NA,TC,TC-PR,Providenciales,MBPV,PLS
-4636,MDPC,Punta Cana International Airport,NA,DO,DO-11,Punta Cana,MDPC,PUJ
-4638,MDSD,Las Américas International Airport,NA,DO,DO-01,Santo Domingo,MDSD,SDQ
-4644,MGGT,La Aurora Airport,NA,GT,GT-GU,Guatemala City,MGGT,GUA
-4680,MKJP,Norman Manley International Airport,NA,JM,JM-01,Kingston,MKJP,KIN
-4688,MMAA,General Juan N Alvarez International Airport,NA,MX,MX-GRO,Acapulco,MMAA,ACA
-4710,MMGL,Don Miguel Hidalgo Y Costilla International Airport,NA,MX,MX-JAL,Guadalajara,MMGL,GDL
-4713,MMHO,General Ignacio P. Garcia International Airport,NA,MX,MX-SON,Hermosillo,MMHO,HMO
-4731,MMMX,Licenciado Benito Juarez International Airport,NA,MX,MX-DIF,Mexico City,MMMX,MEX
-4733,MMMZ,General Rafael Buelna International Airport,NA,MX,MX-SIN,Mazatlán,MMMZ,MZT
-4745,MMPR,President Gustavo Díaz Ordaz International Airport,NA,MX,MX-JAL,Puerto Vallarta,MMPR,PVR
-4750,MMSD,Los Cabos International Airport,NA,MX,MX-BCS,San José del Cabo,MMSD,SJD
-31923,MMSM,Santa Lucía Air Force Base / General Felipe Ángeles International Airport,NA,MX,MX-MEX,Mexico City (Santa Lucía),MMSM,NLU
-4757,MMTJ,General Abelardo L. Rodríguez International Airport,NA,MX,MX-BCN,Tijuana,MMTJ,TIJ
-4762,MMUN,Cancún International Airport,NA,MX,MX-ROO,Cancún,MMUN,CUN
-4793,MPTO,Tocumen International Airport,NA,PA,PA-8,Tocumen,MPTO,PTY
-4806,MRLB,Guanacaste Airport,NA,CR,CR-G,Liberia,MRLB,LIR
-4820,MSLP,Monseñor Óscar Arnulfo Romero International Airport,NA,SV,SV-PA,San Salvador (San Luis Talpa),MSLP,SAL
-4825,MTPP,Toussaint Louverture International Airport,NA,HT,HT-OU,Port-au-Prince,MTPP,PAP
-4839,MUHA,José Martí International Airport,NA,CU,CU-03,Havana,MUHA,HAV
-4859,MUVR,Juan Gualberto Gomez International Airport,NA,CU,CU-04,Varadero,MUVR,VRA
-4862,MWCR,Owen Roberts International Airport,NA,KY,KY-U-A,Georgetown,MWCR,GCM
-4951,MYNN,Lynden Pindling International Airport,NA,BS,BS-NP,Nassau,MYNN,NAS
-4956,MZBZ,Philip S. W. Goldson International Airport,NA,BZ,BZ-BZ,Belize City,MZBZ,BZE
-4979,NTAA,Faa'a International Airport,OC,PF,PF-U-A,Papeete,NTAA,PPT
-5011,NVVV,Bauerfield International Airport,OC,VU,VU-SEE,Port Vila,NVVV,VLI
-5017,NWWM,Nouméa Magenta Airport,OC,NC,NC-U-A,Nouméa,NWWM,GEA
-5023,NZAA,Auckland International Airport,OC,NZ,NZ-AUK,Auckland,NZAA,AKL
-5026,NZCH,Christchurch International Airport,OC,NZ,NZ-CAN,Christchurch,NZCH,CHC
-5063,NZWN,Wellington International Airport,OC,NZ,NZ-WGN,Wellington,NZWN,WLG
-5079,OBBI,Bahrain International Airport,AS,BH,BH-15,Manama,OBBI,BAH
-5087,OEDF,King Fahd International Airport,AS,SA,SA-04,Ad Dammam,OEDF,DMM
-5089,OEDR,King Abdulaziz Air Base,AS,SA,SA-04,Dhahran,OEDR,DHA
-5097,OEJN,King Abdulaziz International Airport,AS,SA,SA-02,Jeddah,OEJN,JED
-5101,OEMA,Prince Mohammad Bin Abdulaziz Airport,AS,SA,SA-03,Medina,OEMA,MED
-5112,OERK,King Khaled International Airport,AS,SA,SA-01,Riyadh,OERK,RUH
-5166,OIIE,Imam Khomeini International Airport,AS,IR,IR-23,Tehran,OIIE,IKA
-5168,OIII,Mehrabad International Airport,AS,IR,IR-23,Tehran,OIII,THR
-5183,OIMM,Mashhad International Airport,AS,IR,IR-09,Mashhad,OIMM,MHD
-5197,OISS,Shiraz Shahid Dastghaib International Airport,AS,IR,IR-07,Shiraz,OISS,SYZ
-5212,OJAI,Queen Alia International Airport,AS,JO,JO-AM,Amman,OJAI,AMM
-5220,OKBK,Kuwait International Airport,AS,KW,KW-FA,Kuwait City,OKBK,KWI
-5222,OLBA,Beirut Rafic Hariri International Airport,AS,LB,LB-JL,Beirut,OLBA,BEY
-299738,OM-0003,Duqm International Airport,AS,OM,OM-WU,Duqm,OODQ,DQM
-5226,OMAA,Abu Dhabi International Airport,AS,AE,AE-AZ,Abu Dhabi,OMAA,AUH
-5235,OMDB,Dubai International Airport,AS,AE,AE-DU,Dubai,OMDB,DXB
-300320,OMDW,Al Maktoum International Airport,AS,AE,AE-DU,Jebel Ali,OMDW,DWC
-5239,OMSJ,Sharjah International Airport,AS,AE,AE-SH,Sharjah,OMSJ,SHJ
-5242,OOMS,Muscat International Airport,AS,OM,OM-MA,Muscat,OOMS,MCT
-333692,OPIS,Islamabad International Airport,AS,PK,PK-PB,Islamabad,OPIS,ISB
-5255,OPKC,Jinnah International Airport,AS,PK,PK-SD,Karachi,OPKC,KHI
-5257,OPLA,Allama Iqbal International Airport,AS,PK,PK-PB,Lahore,OPLA,LHE
-5289,ORBI,Baghdad International Airport / New Al Muthana Air Base,AS,IQ,IQ-BG,Baghdad,ORBI,BGW
-5303,OSDI,Damascus International Airport,AS,SY,SY-DI,Damascus,OSDI,DAM
-44686,OTHH,Hamad International Airport,AS,QA,QA-DA,Doha,OTHH,DOH
-5360,PAFA,Fairbanks International Airport,NA,US,US-AK,Fairbanks,PAFA,FAI
 5388,PANC,Ted Stevens Anchorage International Airport,NA,US,US-AK,Anchorage,PANC,ANC
-5433,PGUM,Antonio B. Won Pat International Airport,OC,GU,GU-U-A,Hagåtña,PGUM,GUM
-5453,PHNL,Daniel K Inouye International Airport,OC,US,US-HI,Honolulu,PHNL,HNL
-5516,RCKH,Kaohsiung International Airport,AS,TW,TW-KHH,Kaohsiung (Xiaogang),RCKH,KHH
-5528,RCTP,Taiwan Taoyuan International Airport,AS,TW,TW-TAO,Taipei,RCTP,TPE
-5531,RJAA,Narita International Airport,AS,JP,JP-12,Tokyo,RJAA,NRT
-5536,RJBB,Kansai International Airport,AS,JP,JP-27,Osaka,RJBB,KIX
-5544,RJCC,New Chitose Airport,AS,JP,JP-01,Sapporo,RJCC,CTS
-5564,RJFF,Fukuoka Airport,AS,JP,JP-40,Fukuoka,RJFF,FUK
-5566,RJFK,Kagoshima Airport,AS,JP,JP-46,Kagoshima,RJFK,KOJ
-5576,RJGG,Chubu Centrair International Airport,AS,JP,JP-23,Tokoname,RJGG,NGO
-5598,RJOO,Osaka International Airport,AS,JP,JP-27,Osaka,RJOO,ITM
-5615,RJSS,Sendai Airport,AS,JP,JP-04,Natori,RJSS,SDJ
-5627,RJTT,Tokyo Haneda International Airport,AS,JP,JP-13,Tokyo,RJTT,HND
-5629,RJTY,Yokota Air Base,AS,JP,JP-13,Fussa,RJTY,OKO
-302303,RKJB,Muan International Airport,AS,KR,KR-46,Piseo-ri (Muan),RKJB,MWX
-5639,RKPC,Jeju International Airport,AS,KR,KR-49,Jeju City,RKPC,CJU
-5642,RKPK,Gimhae International Airport,AS,KR,KR-26,Busan,RKPK,PUS
-5653,RKSI,Incheon International Airport,AS,KR,KR-28,Seoul,RKSI,ICN
-5656,RKSS,Gimpo International Airport,AS,KR,KR-11,Seoul,RKSS,GMP
-5671,ROAH,Naha Airport / JASDF Naha Air Base,AS,JP,JP-47,Naha,ROAH,OKA
-5673,RODN,Kadena Air Base,AS,JP,JP-47,,RODN,DNA
-5689,RPLL,Ninoy Aquino International Airport,AS,PH,PH-00,Manila,RPLL,MNL
-5697,RPMD,Francisco Bangoy International Airport,AS,PH,PH-DAS,Davao,RPMD,DVO
-5742,RPVM,Mactan Cebu International Airport,AS,PH,PH-CEB,Lapu-Lapu City,RPVM,CEB
-41136,RU-0016,Lipetsk Air Base,EU,RU,RU-LIP,Lipetsk,,
-35046,RU-4464,Olenya Air Base,EU,RU,RU-MUR,Olenegorsk,,
-5771,SABE,Jorge Newbery Airpark,SA,AR,AR-C,Buenos Aires,SABE,AEP
-5781,SAEZ,Ministro Pistarini International Airport,SA,AR,AR-B,Buenos Aires (Ezeiza),SAEZ,EZE
-5867,SBBE,Val de Cans/Júlio Cezar Ribeiro International Airport,SA,BR,BR-PA,Belém,SBBE,BEL
-5872,SBBR,Presidente Juscelino Kubitschek International Airport,SA,BR,BR-DF,Brasília,SBBR,BSB
-5882,SBCF,Tancredo Neves International Airport,SA,BR,BR-MG,Belo Horizonte,SBCF,CNF
-5897,SBEG,Eduardo Gomes International Airport,SA,BR,BR-AM,Manaus,SBEG,MAO
-5901,SBFL,Hercílio Luz International Airport,SA,BR,BR-SC,Florianópolis,SBFL,FLN
-5906,SBGL,Rio Galeão – Tom Jobim International Airport,SA,BR,BR-RJ,Rio De Janeiro,SBGL,GIG
-5910,SBGR,Guarulhos - Governador André Franco Montoro International Airport,SA,BR,BR-SP,São Paulo,SBGR,GRU
-5977,SBSV,Deputado Luiz Eduardo Magalhães International Airport,SA,BR,BR-BA,Salvador,SBSV,SSA
-6015,SCEL,Comodoro Arturo Merino Benítez International Airport,SA,CL,CL-RM,Santiago,SCEL,SCL
-6056,SEGU,José Joaquín de Olmedo International Airport,SA,EC,EC-G,Guayaquil,SEGU,GYE
-308273,SEQM,Mariscal Sucre International Airport,SA,EC,EC-P,Quito,SEQM,UIO
-6104,SKBO,El Dorado International Airport,SA,CO,CO-CUN,Bogota,SKBO,BOG
-6193,SLVR,Viru Viru International Airport,SA,BO,BO-S,Santa Cruz,SLVR,VVI
-6195,SMJP,Johan Adolf Pengel International Airport,SA,SR,SR-PR,Zandery,SMJP,PBM
-6198,SOCA,Cayenne – Félix Eboué Airport,SA,GF,GF-CY,Matoury,SOCA,CAY
-6217,SPIM,Jorge Chávez International Airport,SA,PE,PE-LIM,Lima,SPJC,LIM
-6243,SPZO,Alejandro Velasco Astete International Airport,SA,PE,PE-CUS,Cusco,SPZO,CUZ
-6247,SUMU,Carrasco International /General C L Berisso Airport,SA,UY,UY-CA,Montevideo,SUMU,MVD
-6255,SVBC,General José Antonio Anzoategui International Airport,SA,VE,VE-B,Barcelona,SVBC,BLA
-6300,SVMI,Simón Bolívar International Airport,SA,VE,VE-X,Caracas,SVMI,CCS
-342096,TAO,Qingdao Jiaodong International Airport,AS,CN,CN-37,"Jiaozhou, Qingdao",ZSQD,TAO
-6363,TFFF,Martinique Aimé Césaire International Airport,NA,MQ,MQ-U-A,Fort-de-France,TFFF,FDF
-6366,TFFR,Pointe-à-Pitre Le Raizet International  Airport,NA,GP,GP-U-A,Pointe-à-Pitre,TFFR,PTP
-6384,TJSJ,Luis Munoz Marin International Airport,NA,PR,PR-U-A,San Juan,TJSJ,SJU
-6389,TLPL,Hewanorra International Airport,NA,LC,LC-11,Vieux Fort,TLPL,UVF
-6402,TNCA,Queen Beatrix International Airport,NA,AW,AW-U-A,Oranjestad,TNCA,AUA
-6403,TNCB,Flamingo International Airport,NA,BQ,BQ-U-A,"Kralendijk, Bonaire",TNCB,BON
-6404,TNCC,Hato International Airport,NA,CW,CW-U-A,Willemstad,TNCC,CUR
-6406,TNCM,Princess Juliana International Airport,NA,SX,SX-U-A,Saint Martin,TNCM,SXM
-6421,UAAA,Almaty International Airport,AS,KZ,KZ-ALM,Almaty,UAAA,ALA
-6423,UACC,Nursultan Nazarbayev International Airport,AS,KZ,KZ-AKM,Nur-Sultan,UACC,NQZ
-6426,UAFM,Manas International Airport,AS,KG,KG-C,Bishkek,UCFM,FRU
-337747,UAIT,Hazrat Sultan International Airport,AS,KZ,KZ-YUZ,,UAIT,HSA
-6440,UBBB,Heydar Aliyev International Airport,AS,AZ,AZ-BA,Baku,UBBB,GYD
-6446,UDYZ,Zvartnots International Airport,AS,AM,AM-ER,Yerevan,UDYZ,EVN
-6453,UGTB,Tbilisi International Airport,AS,GE,GE-TB,Tbilisi,UGTB,TBS
-6462,UHWW,Vladivostok International Airport,EU,RU,RU-PRI,Artyom,UHWW,VVO
-6467,UKBB,Boryspil International Airport,EU,UA,UA-32,Kiev,UKBB,KBP
-6481,UKLL,Lviv International Airport,EU,UA,UA-46,Lviv,UKLL,LWO
-6489,ULLI,Pulkovo Airport,EU,RU,RU-SPE,St. Petersburg,ULLI,LED
-6501,UMMS,Minsk National Airport,EU,BY,BY-MI,Minsk,UMMS,MSQ
-6506,UNKL,Krasnoyarsk International Airport,EU,RU,RU-KYA,Krasnoyarsk,UNKL,KJA
-6507,UNNT,Novosibirsk Tolmachevo Airport,EU,RU,RU-NVS,Novosibirsk,UNNT,OVB
-326363,URRP,Platov International Airport,EU,RU,RU-ROS,Rostov-on-Don,URRP,ROV
-6519,URSS,Sochi International Airport,EU,RU,RU-KDA,Sochi,URSS,AER
-26378,USSS,Koltsovo Airport,AS,RU,RU-SVE,Yekaterinburg,USSS,SVX
-26380,UTAA,Ashgabat International Airport,AS,TM,TM-A,Ashgabat,UTAA,ASB
-26392,UTTT,Tashkent International Airport,AS,UZ,UZ-TO,Tashkent,UTTT,TAS
-42967,UUBW,Zhukovsky International Airport,EU,RU,RU-MOS,Moscow,UUBW,ZIA
-26394,UUDD,Domodedovo International Airport,EU,RU,RU-MOS,Moscow,UUDD,DME
-26396,UUEE,Sheremetyevo International Airport,EU,RU,RU-MOS,Moscow,UUEE,SVO
-26401,UUWW,Vnukovo International Airport,EU,RU,RU-MOS,Moscow,UUWW,VKO
-26404,UWKD,Kazan International Airport,EU,RU,RU-TA,Kazan,UWKD,KZN
-339001,UWSG,Gagarin International Airport,EU,RU,RU-SAR,Saratov,UWSG,GSV
-26411,UWUU,Ufa International Airport,EU,RU,RU-BA,Ufa,UWUU,UFA
-26412,UWWW,Kurumoch International Airport,EU,RU,RU-SAM,Samara,UWWW,KUF
-26434,VABB,Chhatrapati Shivaji International Airport,AS,IN,IN-MM,Mumbai,VABB,BOM
-26444,VAGO,Dabolim Airport,AS,IN,IN-GA,Vasco da Gama,VOGO,GOI
-26463,VCBI,Bandaranaike International Colombo Airport,AS,LK,LK-1,Colombo,VCBI,CMB
-309579,VCRI,Mattala Rajapaksa International Airport,AS,LK,LK-3,,VCRI,HRI
-26475,VDPP,Phnom Penh International Airport,AS,KH,KH-12,Phnom Penh (Pou Senchey),VDPP,PNH
-26476,VDSR,Siem Reap International Airport,AS,KH,KH-17,Siem Reap,VDSR,REP
-26496,VECC,Netaji Subhash Chandra Bose International Airport,AS,IN,IN-WB,Kolkata,VECC,CCU
-26534,VGZR,Hazrat Shahjalal International Airport,AS,BD,BD-3,Dhaka,VGHS,DAC
-26535,VHHH,Hong Kong International Airport,AS,HK,HK-U-A,Hong Kong,VHHH,HKG
-26555,VIDP,Indira Gandhi International Airport,AS,IN,IN-DL,New Delhi,VIDP,DEL
-26589,VMMC,Macau International Airport,AS,MO,MO-U-A,Freguesia de Nossa Senhora do Carmo (Taipa),VMMC,MFM
-26596,VNKT,Tribhuvan International Airport,AS,NP,NP-BA,Kathmandu,VNKT,KTM
-35145,VOBL,Kempegowda International Airport,AS,IN,IN-KA,Bangalore,VOBL,BLR
-26609,VOCI,Cochin International Airport,AS,IN,IN-KL,Kochi,VOCI,COK
-35141,VOHS,Rajiv Gandhi International Airport,AS,IN,IN-TG,Hyderabad,VOHS,HYD
-26618,VOMM,Chennai International Airport,AS,IN,IN-TN,Chennai,VOMM,MAA
-26629,VOTV,Trivandrum International Airport,AS,IN,IN-KL,Thiruvananthapuram,VOTV,TRV
-26636,VRMM,Malé International Airport,AS,MV,MV-MLE,Malé,VRMM,MLE
-26638,VTBD,Don Mueang International Airport,AS,TH,TH-10,Bangkok,VTBD,DMK
-28118,VTBS,Suvarnabhumi Airport,AS,TH,TH-10,Bangkok,VTBS,BKK
-26647,VTCC,Chiang Mai International Airport,AS,TH,TH-50,Chiang Mai,VTCC,CNX
-26674,VTSP,Phuket International Airport,AS,TH,TH-83,Phuket,VTSP,HKT
-26700,VVNB,Noi Bai International Airport,AS,VN,VN-RRD,"Soc Son, Hanoi",VVNB,HAN
-26708,VVTS,Tan Son Nhat International Airport,AS,VN,VN-SE,Ho Chi Minh City,VVTS,SGN
-26727,VYMD,Mandalay International Airport,AS,MM,MM-04,Mandalay,VYMD,MDL
-26744,VYYY,Yangon International Airport,AS,MM,MM-06,Yangon,VYYY,RGN
-26745,WAAA,Hasanuddin International Airport,AS,ID,ID-SN,Ujung Pandang-Celebes Island,WAAA,UPG
-26751,WADD,Ngurah Rai (Bali) International Airport,AS,ID,ID-BA,Denpasar-Bali Island,WADD,DPS
-26755,WAJJ,Sentani International Airport,AS,ID,ID-PA,Jayapura-Papua Island,WAJJ,DJJ
-26789,WARR,Juanda International Airport,AS,ID,ID-JI,Surabaya,WARR,SUB
-26819,WBSB,Brunei International Airport,AS,BN,BN-BM,Bandar Seri Begawan,WBSB,BWN
-26835,WIII,Soekarno-Hatta International Airport,AS,ID,ID-BT,Jakarta,WIII,CGK
-26874,WMKK,Kuala Lumpur International Airport,AS,MY,MY-14,Kuala Lumpur,WMKK,KUL
-26887,WSSS,Singapore Changi Airport,AS,SG,SG-04,Singapore,WSSS,SIN
-26901,YBBN,Brisbane International Airport,OC,AU,AU-QLD,Brisbane,YBBN,BNE
-27066,YMML,Melbourne International Airport,OC,AU,AU-VIC,Melbourne,YMML,MEL
-332096,YNT,Yantai Penglai International Airport,AS,CN,CN-37,Yantai,ZSYT,YNT
-27096,YPAD,Adelaide International Airport,OC,AU,AU-SA,Adelaide,YPAD,ADL
-27119,YPPH,Perth International Airport,OC,AU,AU-WA,Perth,YPPH,PER
-27145,YSSY,Sydney Kingsford Smith International Airport,OC,AU,AU-NSW,Sydney,YSSY,SYD
-27188,ZBAA,Beijing Capital International Airport,AS,CN,CN-11,Beijing,ZBAA,PEK
-330820,ZBAD,Beijing Daxing International Airport,AS,CN,CN-11,Beijing,ZBAD,PKX
-27189,ZBHH,Hohhot Baita International Airport,AS,CN,CN-15,Hohhot,ZBHH,HET
-27192,ZBTJ,Tianjin Binhai International Airport,AS,CN,CN-12,Tianjin,ZBTJ,TSN
-27193,ZBYN,Taiyuan Wusu Airport,AS,CN,CN-14,Taiyuan,ZBYN,TYN
-27194,ZGGG,Guangzhou Baiyun International Airport,AS,CN,CN-44,Guangzhou (Huadu),ZGGG,CAN
-27195,ZGHA,Changsha Huanghua International Airport,AS,CN,CN-43,Changsha,ZGHA,CSX
-27196,ZGKL,Guilin Liangjiang International Airport,AS,CN,CN-45,Guilin (Lingui),ZGKL,KWL
-27197,ZGNN,Nanning Wuxu Airport,AS,CN,CN-45,Nanning (Jiangnan),ZGNN,NNG
-27198,ZGSZ,Shenzhen Bao'an International Airport,AS,CN,CN-44,Shenzhen (Bao'an),ZGSZ,SZX
-27199,ZHCC,Zhengzhou Xinzheng International Airport,AS,CN,CN-41,Zhengzhou,ZHCC,CGO
-27200,ZHHH,Wuhan Tianhe International Airport,AS,CN,CN-42,Wuhan,ZHHH,WUH
-27201,ZJHK,Haikou Meilan International Airport,AS,CN,CN-46,Haikou (Meilan),ZJHK,HAK
-27202,ZJSY,Sanya Phoenix International Airport,AS,CN,CN-46,Sanya (Tianya),ZJSY,SYX
-27204,ZLLL,Lanzhou Zhongchuan International Airport,AS,CN,CN-62,Lanzhou (Yongdeng),ZLLL,LHW
-27205,ZLXY,Xi'an Xianyang International Airport,AS,CN,CN-61,Xi'an,ZLXY,XIY
-335326,ZMCK,Ulaanbaatar Chinggis Khaan International Airport,AS,MN,MN-047,Ulaanbaatar (Sergelen),ZMCK,UBN
-27214,ZPPP,Kunming Changshui International Airport,AS,CN,CN-53,Kunming,ZPPP,KMG
-27215,ZSAM,Xiamen Gaoqi International Airport,AS,CN,CN-35,Xiamen,ZSAM,XMN
-27216,ZSCN,Nanchang Changbei International Airport,AS,CN,CN-36,Nanchang,ZSCN,KHN
-27217,ZSFZ,Fuzhou Changle International Airport,AS,CN,CN-35,Fuzhou,ZSFZ,FOC
-27218,ZSHC,Hangzhou Xiaoshan International Airport,AS,CN,CN-33,Hangzhou,ZSHC,HGH
-27219,ZSJN,Jinan Yaoqiang International Airport,AS,CN,CN-37,Jinan,ZSJN,TNA
-27220,ZSNB,Ningbo Lishe International Airport,AS,CN,CN-33,Ningbo,ZSNB,NGB
-27221,ZSNJ,Nanjing Lukou International Airport,AS,CN,CN-32,Nanjing,ZSNJ,NKG
-27223,ZSPD,Shanghai Pudong International Airport,AS,CN,CN-31,Shanghai (Pudong),ZSPD,PVG
-27225,ZSSS,Shanghai Hongqiao International Airport,AS,CN,CN-31,Shanghai (Minhang),ZSSS,SHA
-32672,ZSWZ,Wenzhou Longwan International Airport,AS,CN,CN-33,Wenzhou,ZSWZ,WNZ
-27228,ZUCK,Chongqing Jiangbei International Airport,AS,CN,CN-50,Chongqing,ZUCK,CKG
-27229,ZUGY,Longdongbao Airport,AS,CN,CN-52,Guiyang,ZUGY,KWE
-342095,ZUTF,Chengdu Tianfu International Airport,AS,CN,CN-51,"Jianyang, Chengdu",ZUTF,TFU
-27230,ZUUU,Chengdu Shuangliu International Airport,AS,CN,CN-51,Chengdu,ZUUU,CTU
-27236,ZWWW,Ürümqi Diwopu International Airport,AS,CN,CN-65,Ürümqi,ZWWW,URC
-27237,ZYCC,Changchun Longjia International Airport,AS,CN,CN-22,Changchun,ZYCC,CGQ
-27238,ZYHB,Harbin Taiping International Airport,AS,CN,CN-23,Harbin,ZYHB,HRB
-27242,ZYTL,Dalian Zhoushuizi International Airport,AS,CN,CN-21,"Ganjingzi, Dalian",ZYTL,DLC
-27243,ZYTX,Shenyang Taoxian International Airport,AS,CN,CN-21,"Hunnan, Shenyang",ZYTX,SHE
+3795,KPVD,Theodore Francis Green State Airport,NA,US,US-RI,Providence,KPVD,PVD
+3930,KTUL,Tulsa International Airport,NA,US,US-OK,Tulsa,KTUL,TUL
+3602,KIAD,Washington Dulles International Airport,NA,US,US-VA,"Washington, DC",KIAD,IAD
+3435,KBWI,Washington International Thurgood Marshall Airport,NA,US,US-MD,Baltimore,KBWI,BWI
