@@ -1,65 +1,65 @@
-id,ident,name,continent,iso_country,iso_region,municipality,gps_code,iata_code
-3386,KAUS,Austin Bergstrom International Airport,NA,US,US-TX,Austin,KAUS,AUS
-3431,KBUF,Buffalo Niagara International Airport,NA,US,US-NY,Buffalo,KBUF,BUF
-3457,KCLT,Charlotte Douglas International Airport,NA,US,US-NC,Charlotte,KCLT,CLT
-3673,KMDW,Chicago Midway International Airport,NA,US,US-IL,Chicago,KMDW,MDW
-3754,KORD,Chicago O'Hare International Airport,NA,US,US-IL,Chicago,KORD,ORD
-3471,KCVG,Cincinnati Northern Kentucky International Airport,NA,US,US-KY,Cincinnati / Covington,KCVG,CVG
-3454,KCLE,Cleveland Hopkins International Airport,NA,US,US-OH,Cleveland,KCLE,CLE
-3488,KDFW,Dallas Fort Worth International Airport,NA,US,US-TX,Dallas-Fort Worth,KDFW,DFW
-5453,PHNL,Daniel K Inouye International Airport,OC,US,US-HI,Honolulu,PHNL,HNL
-3486,KDEN,Denver International Airport,NA,US,US-CO,Denver,KDEN,DEN
-3497,KDTW,Detroit Metropolitan Wayne County Airport,NA,US,US-MI,Detroit,KDTW,DTW
-5360,PAFA,Fairbanks International Airport,NA,US,US-AK,Fairbanks,PAFA,FAI
-3531,KFLL,Fort Lauderdale Hollywood International Airport,NA,US,US-FL,Fort Lauderdale,KFLL,FLL
-3690,KMKE,General Mitchell International Airport,NA,US,US-WI,Milwaukee,KMKE,MKE
-3604,KIAH,George Bush Intercontinental Houston Airport,NA,US,US-TX,Houston,KIAH,IAH
-3384,KATL,Hartsfield Jackson Atlanta International Airport,NA,US,US-GA,Atlanta,KATL,ATL
-3610,KIND,Indianapolis International Airport,NA,US,US-IN,Indianapolis,KIND,IND
-3620,KJAX,Jacksonville International Airport,NA,US,US-FL,Jacksonville,KJAX,JAX
-3622,KJFK,John F Kennedy International Airport,NA,US,US-NY,New York,KJFK,JFK
-3458,KCMH,John Glenn Columbus International Airport,NA,US,US-OH,Columbus,KCMH,CMH
-3894,KSNA,John Wayne Airport-Orange County Airport,NA,US,US-CA,Santa Ana,KSNA,SNA
-3364,KADW,Joint Base Andrews,NA,US,US-MD,Camp Springs,KADW,ADW
-3668,KMCI,Kansas City International Airport,NA,US,US-MO,Kansas City,KMCI,MCI
-3643,KLGA,La Guardia Airport,NA,US,US-NY,New York,KLGA,LGA
-3422,KBOS,Logan International Airport,NA,US,US-MA,Boston,KBOS,BOS
-3632,KLAX,Los Angeles International Airport,NA,US,US-CA,Los Angeles,KLAX,LAX
-3711,KMSY,Louis Armstrong New Orleans International Airport,NA,US,US-LA,New Orleans,KMSY,MSY
-3873,KSDF,Louisville Muhammad Ali International Airport,NA,US,US-KY,Louisville,KSDF,SDF
-3631,KLAS,McCarran International Airport,NA,US,US-NV,Las Vegas,KLAS,LAS
-3675,KMEM,Memphis International Airport,NA,US,US-TN,Memphis,KMEM,MEM
-3744,KOAK,Metropolitan Oakland International Airport,NA,US,US-CA,Oakland,KOAK,OAK
-3685,KMIA,Miami International Airport,NA,US,US-FL,Miami,KMIA,MIA
-3709,KMSP,Minneapolis–Saint Paul International Airport / Wold–Chamberlain Field,NA,US,US-MN,Minneapolis,KMSP,MSP
-3420,KBNA,Nashville International Airport,NA,US,US-TN,Nashville,KBNA,BNA
-3521,KEWR,Newark Liberty International Airport,NA,US,US-NJ,New York,KEWR,EWR
-3883,KSJC,Norman Y. Mineta San Jose International Airport,NA,US,US-CA,San Jose,KSJC,SJC
-3752,KONT,Ontario International Airport,NA,US,US-CA,Ontario,KONT,ONT
-3670,KMCO,Orlando International Airport,NA,US,US-FL,Orlando,KMCO,MCO
-3876,KSFB,Orlando Sanford International Airport,NA,US,US-FL,Orlando,KSFB,SFB
-3766,KPBI,Palm Beach International Airport,NA,US,US-FL,West Palm Beach,KPBI,PBI
-3771,KPHL,Philadelphia International Airport,NA,US,US-PA,Philadelphia,KPHL,PHL
-3772,KPHX,Phoenix Sky Harbor International Airport,NA,US,US-AZ,Phoenix,KPHX,PHX
-3778,KPIT,Pittsburgh International Airport,NA,US,US-PA,Pittsburgh,KPIT,PIT
-3768,KPDX,Portland International Airport,NA,US,US-OR,Portland,KPDX,PDX
-3844,KRDU,Raleigh Durham International Airport,NA,US,US-NC,Raleigh/Durham,KRDU,RDU
-3853,KRNO,Reno Tahoe International Airport,NA,US,US-NV,Reno,KRNO,RNO
-3847,KRIC,Richmond International Airport,NA,US,US-VA,Richmond,KRIC,RIC
-3483,KDCA,Ronald Reagan Washington National Airport,NA,US,US-DC,Washington,KDCA,DCA
-3892,KSMF,Sacramento International Airport,NA,US,US-CA,Sacramento,KSMF,SMF
-3887,KSLC,Salt Lake City International Airport,NA,US,US-UT,Salt Lake City,KSLC,SLC
-3863,KSAT,San Antonio International Airport,NA,US,US-TX,San Antonio,KSAT,SAT
-3862,KSAN,San Diego International Airport,NA,US,US-CA,San Diego,KSAN,SAN
-3878,KSFO,San Francisco International Airport,NA,US,US-CA,San Francisco,KSFO,SFO
-3864,KSAV,Savannah Hilton Head International Airport,NA,US,US-GA,Savannah,KSAV,SAV
-3875,KSEA,Seattle Tacoma International Airport,NA,US,US-WA,Seattle,KSEA,SEA
-3858,KRSW,Southwest Florida International Airport,NA,US,US-FL,Fort Myers,KRSW,RSW
-3905,KSTL,St Louis Lambert International Airport,NA,US,US-MO,St Louis,KSTL,STL
-3913,KSYR,Syracuse Hancock International Airport,NA,US,US-NY,Syracuse,KSYR,SYR
-3926,KTPA,Tampa International Airport,NA,US,US-FL,Tampa,KTPA,TPA
-5388,PANC,Ted Stevens Anchorage International Airport,NA,US,US-AK,Anchorage,PANC,ANC
-3795,KPVD,Theodore Francis Green State Airport,NA,US,US-RI,Providence,KPVD,PVD
-3930,KTUL,Tulsa International Airport,NA,US,US-OK,Tulsa,KTUL,TUL
-3602,KIAD,Washington Dulles International Airport,NA,US,US-VA,"Washington, DC",KIAD,IAD
-3435,KBWI,Washington International Thurgood Marshall Airport,NA,US,US-MD,Baltimore,KBWI,BWI
+id,ident,name,continent,iso_country,iso_region,municipality,gps_code,iata_code,utc_offset
+3364,KADW,Joint Base Andrews,NA,US,US-MD,Camp Springs,KADW,ADW,-500
+5388,PANC,Ted Stevens Anchorage International Airport,NA,US,US-AK,Anchorage,PANC,ANC,-900
+3384,KATL,Hartsfield Jackson Atlanta International Airport,NA,US,US-GA,Atlanta,KATL,ATL,-500
+3386,KAUS,Austin Bergstrom International Airport,NA,US,US-TX,Austin,KAUS,AUS,-600
+3420,KBNA,Nashville International Airport,NA,US,US-TN,Nashville,KBNA,BNA,-500
+3422,KBOS,Logan International Airport,NA,US,US-MA,Boston,KBOS,BOS,-500
+3431,KBUF,Buffalo Niagara International Airport,NA,US,US-NY,Buffalo,KBUF,BUF,-500
+3435,KBWI,Washington International Thurgood Marshall Airport,NA,US,US-MD,Baltimore,KBWI,BWI,-500
+3454,KCLE,Cleveland Hopkins International Airport,NA,US,US-OH,Cleveland,KCLE,CLE,-500
+3457,KCLT,Charlotte Douglas International Airport,NA,US,US-NC,Charlotte,KCLT,CLT,-500
+3458,KCMH,John Glenn Columbus International Airport,NA,US,US-OH,Columbus,KCMH,CMH,-500
+3471,KCVG,Cincinnati Northern Kentucky International Airport,NA,US,US-KY,Cincinnati / Covington,KCVG,CVG,-600
+3483,KDCA,Ronald Reagan Washington National Airport,NA,US,US-DC,Washington,KDCA,DCA,-500
+3486,KDEN,Denver International Airport,NA,US,US-CO,Denver,KDEN,DEN,-700
+3488,KDFW,Dallas Fort Worth International Airport,NA,US,US-TX,Dallas-Fort Worth,KDFW,DFW,-600
+3497,KDTW,Detroit Metropolitan Wayne County Airport,NA,US,US-MI,Detroit,KDTW,DTW,-500
+3521,KEWR,Newark Liberty International Airport,NA,US,US-NJ,New York,KEWR,EWR,-500
+5360,PAFA,Fairbanks International Airport,NA,US,US-AK,Fairbanks,PAFA,FAI,-900
+3531,KFLL,Fort Lauderdale Hollywood International Airport,NA,US,US-FL,Fort Lauderdale,KFLL,FLL,-500
+5453,PHNL,Daniel K Inouye International Airport,OC,US,US-HI,Honolulu,PHNL,HNL,-1000
+3602,KIAD,Washington Dulles International Airport,NA,US,US-VA,"Washington, DC",KIAD,IAD,-500
+3604,KIAH,George Bush Intercontinental Houston Airport,NA,US,US-TX,Houston,KIAH,IAH,-600
+3610,KIND,Indianapolis International Airport,NA,US,US-IN,Indianapolis,KIND,IND,-600
+3620,KJAX,Jacksonville International Airport,NA,US,US-FL,Jacksonville,KJAX,JAX,-500
+3622,KJFK,John F Kennedy International Airport,NA,US,US-NY,New York,KJFK,JFK,-500
+3631,KLAS,McCarran International Airport,NA,US,US-NV,Las Vegas,KLAS,LAS,-700
+3632,KLAX,Los Angeles International Airport,NA,US,US-CA,Los Angeles,KLAX,LAX,-800
+3643,KLGA,La Guardia Airport,NA,US,US-NY,New York,KLGA,LGA,-500
+3668,KMCI,Kansas City International Airport,NA,US,US-MO,Kansas City,KMCI,MCI,-600
+3670,KMCO,Orlando International Airport,NA,US,US-FL,Orlando,KMCO,MCO,-500
+3673,KMDW,Chicago Midway International Airport,NA,US,US-IL,Chicago,KMDW,MDW,-600
+3675,KMEM,Memphis International Airport,NA,US,US-TN,Memphis,KMEM,MEM,-500
+3685,KMIA,Miami International Airport,NA,US,US-FL,Miami,KMIA,MIA,-500
+3690,KMKE,General Mitchell International Airport,NA,US,US-WI,Milwaukee,KMKE,MKE,-600
+3709,KMSP,Minneapolis–Saint Paul International Airport / Wold–Chamberlain Field,NA,US,US-MN,Minneapolis,KMSP,MSP,-600
+3711,KMSY,Louis Armstrong New Orleans International Airport,NA,US,US-LA,New Orleans,KMSY,MSY,-600
+3744,KOAK,Metropolitan Oakland International Airport,NA,US,US-CA,Oakland,KOAK,OAK,-800
+3752,KONT,Ontario International Airport,NA,US,US-CA,Ontario,KONT,ONT,-800
+3754,KORD,Chicago O'Hare International Airport,NA,US,US-IL,Chicago,KORD,ORD,-600
+3766,KPBI,Palm Beach International Airport,NA,US,US-FL,West Palm Beach,KPBI,PBI,-500
+3768,KPDX,Portland International Airport,NA,US,US-OR,Portland,KPDX,PDX,-800
+3771,KPHL,Philadelphia International Airport,NA,US,US-PA,Philadelphia,KPHL,PHL,-500
+3772,KPHX,Phoenix Sky Harbor International Airport,NA,US,US-AZ,Phoenix,KPHX,PHX,-700
+3778,KPIT,Pittsburgh International Airport,NA,US,US-PA,Pittsburgh,KPIT,PIT,-500
+3795,KPVD,Theodore Francis Green State Airport,NA,US,US-RI,Providence,KPVD,PVD,-500
+3844,KRDU,Raleigh Durham International Airport,NA,US,US-NC,Raleigh/Durham,KRDU,RDU,-500
+3847,KRIC,Richmond International Airport,NA,US,US-VA,Richmond,KRIC,RIC,-500
+3853,KRNO,Reno Tahoe International Airport,NA,US,US-NV,Reno,KRNO,RNO,-700
+3858,KRSW,Southwest Florida International Airport,NA,US,US-FL,Fort Myers,KRSW,RSW,-500
+3862,KSAN,San Diego International Airport,NA,US,US-CA,San Diego,KSAN,SAN,-800
+3863,KSAT,San Antonio International Airport,NA,US,US-TX,San Antonio,KSAT,SAT,-600
+3864,KSAV,Savannah Hilton Head International Airport,NA,US,US-GA,Savannah,KSAV,SAV,-500
+3873,KSDF,Louisville Muhammad Ali International Airport,NA,US,US-KY,Louisville,KSDF,SDF,-600
+3875,KSEA,Seattle Tacoma International Airport,NA,US,US-WA,Seattle,KSEA,SEA,-800
+3876,KSFB,Orlando Sanford International Airport,NA,US,US-FL,Orlando,KSFB,SFB,-500
+3878,KSFO,San Francisco International Airport,NA,US,US-CA,San Francisco,KSFO,SFO,-800
+3883,KSJC,Norman Y. Mineta San Jose International Airport,NA,US,US-CA,San Jose,KSJC,SJC,-800
+3887,KSLC,Salt Lake City International Airport,NA,US,US-UT,Salt Lake City,KSLC,SLC,-700
+3892,KSMF,Sacramento International Airport,NA,US,US-CA,Sacramento,KSMF,SMF,-800
+3894,KSNA,John Wayne Airport-Orange County Airport,NA,US,US-CA,Santa Ana,KSNA,SNA,-800
+3905,KSTL,St Louis Lambert International Airport,NA,US,US-MO,St Louis,KSTL,STL,-600
+3913,KSYR,Syracuse Hancock International Airport,NA,US,US-NY,Syracuse,KSYR,SYR,-500
+3926,KTPA,Tampa International Airport,NA,US,US-FL,Tampa,KTPA,TPA,-500
+3930,KTUL,Tulsa International Airport,NA,US,US-OK,Tulsa,KTUL,TUL,-600

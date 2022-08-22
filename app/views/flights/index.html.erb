@@ -15,6 +15,11 @@
   </div>
 
   <div>
+    <%= form.label :num_passengers, 'Passengers: ' %>
+    <%= form.select :num_passengers, [*1..4] %>
+  </div>
+
+  <div>
     <%= form.submit 'Search' %>
   </div>
 <% end %>
