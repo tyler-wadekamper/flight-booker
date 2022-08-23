@@ -5,7 +5,7 @@ require 'json'
 
 class FlightsController < ApplicationController
   def index
-    @flights = set_flights
+    @flights = search_flights
 
     @airport_options = Airport.all.map do |airport|
       [airport.abbreviation_name_string, airport.id]
@@ -14,15 +14,29 @@ class FlightsController < ApplicationController
 
   private
 
-  def set_flights
-    return find_flights(search_params) unless params[:departure_airport].nil?
+  def search_flights
+    return get_flights_through_api(search_params) unless params[:departure_airport].nil?
 
     nil
   end
 
-  def find_flights(search_params)
-    departure_airport = Airport.find(params[:departure_airport])
-    date_with_departure_timezone = params[:date] + ' ' + departure_airport.utc_offset
+  def get_flights_through_api(search_params)
+    arrival_airport = airport_by_id(search_params[:arrival_airport])
+    departure_airport = airport_by_id(search_params[:departure_airport])
+    total_url = build_open_sky_url(departure_airport, params[:date])
+
+    api_response = URI.parse(total_url).open(&:readline)
+    flights_json = JSON.parse(api_response)
+
+    create_flights(flights_json, arrival_airport, departure_airport)
+  end
+
+  def airport_by_id(airport_id)
+    Airport.find(airport_id)
+  end
+
+  def build_open_sky_url(departure_airport, date_param)
+    date_with_departure_timezone = date_param + ' ' + departure_airport.utc_offset
     time_start_epoch = Time.strptime(date_with_departure_timezone, "%Y-%m-%d %z").to_i
     time_end_epoch = time_start_epoch + (23 * 60 * 60 + 59 * 60)
 
@@ -31,15 +45,10 @@ class FlightsController < ApplicationController
     begin_parameter = 'begin=' + time_start_epoch.to_s + '&'
     end_parameter = 'end=' + time_end_epoch.to_s
 
-    total_url = base_url + identifier_parameter + begin_parameter + end_parameter
-    puts total_url
+    base_url + identifier_parameter + begin_parameter + end_parameter
+  end
 
-    file = URI.parse(total_url).open(&:readline)
-
-    flights_json = JSON.parse(file)
-
-    arrival_airport = Airport.find(search_params[:arrival_airport])
-
+  def create_flights(flights_json, arrival_airport, departure_airport)
     flights_json.each do |flight|
       next unless flight['estArrivalAirport'] == arrival_airport.identifier
 
