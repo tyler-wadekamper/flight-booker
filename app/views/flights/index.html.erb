@@ -1,25 +1,3 @@
-<%= form_with url: flights_url, method: :get do |form| %>
-  <div>
-    <%= form.label :departure_airport, 'From: ' %>
-    <%= select_tag(:departure_airport, options_for_select(@airport_options)) %>
-  </div>
+<%= render 'form', search_params: @search_params, airport_options: @airport_options %>
 
-  <div>
-    <%= form.label :arrival_airport, 'To: ' %>
-    <%= select_tag(:arrival_airport, options_for_select(@airport_options)) %>
-  </div>
-
-  <div>
-    <%= form.label :date, 'Date: ' %>
-    <%= form.date_field :date %>
-  </div>
-
-  <div>
-    <%= form.label :num_passengers, 'Passengers: ' %>
-    <%= form.select :num_passengers, [*1..4] %>
-  </div>
-
-  <div>
-    <%= form.submit 'Search' %>
-  </div>
-<% end %>
+<%= render 'flights', flights: @flights %>

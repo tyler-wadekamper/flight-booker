@@ -1,0 +1,24 @@
+<% if flights.nil? %>
+  <div>
+  </div>
+<% elsif flights.empty? %>
+  <div>
+    No flights were found that match your search. Try a search with direct flights on dates in the past.
+  </div>
+<% elsif flights %>
+  <p>
+    <strong>From:</strong>
+    <%= flights[0].departure_airport.name %>
+  </p>
+  <p>
+    <strong>To:</strong>
+    <%= flights[0].arrival_airport.name %>
+  </p>
+
+  <% flights.each do |flight| %>
+    <p>
+      <strong>Time:</strong>
+      <%= Time.at(flight.taking_off) %>
+    </p>
+  <% end %>
+<% end %>

@@ -6,7 +6,7 @@ require 'json'
 class FlightsController < ApplicationController
   def index
     @flights = search_flights
-
+    @search_params = search_params
     @airport_options = Airport.all.map do |airport|
       [airport.abbreviation_name_string, airport.id]
     end
@@ -25,10 +25,15 @@ class FlightsController < ApplicationController
     departure_airport = airport_by_id(search_params[:departure_airport])
     total_url = build_open_sky_url(departure_airport, params[:date])
 
-    api_response = URI.parse(total_url).open(&:readline)
-    flights_json = JSON.parse(api_response)
-
-    create_flights(flights_json, arrival_airport, departure_airport)
+    begin
+      api_response = URI.parse(total_url).open(&:readline)
+    rescue
+      return []
+    else
+      flights_json = JSON.parse(api_response)
+      create_flights(flights_json, arrival_airport, departure_airport)
+      departure_airport.departing_flights.order(taking_off: :asc)
+    end
   end
 
   def airport_by_id(airport_id)
@@ -45,7 +50,9 @@ class FlightsController < ApplicationController
     begin_parameter = 'begin=' + time_start_epoch.to_s + '&'
     end_parameter = 'end=' + time_end_epoch.to_s
 
-    base_url + identifier_parameter + begin_parameter + end_parameter
+    total_url = base_url + identifier_parameter + begin_parameter + end_parameter
+    puts total_url
+    total_url
   end
 
   def create_flights(flights_json, arrival_airport, departure_airport)
