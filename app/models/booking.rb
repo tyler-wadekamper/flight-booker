@@ -5,9 +5,7 @@ class Booking < ApplicationRecord
   belongs_to :flight
   belongs_to :passenger
 
-  private
-
   def generate_confirmation_code
-    SecureRandom.hex(6).upcase
+    SecureRandom.hex(3).upcase
   end
 end
