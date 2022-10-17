@@ -6,20 +6,9 @@
     No flights were found that match your search. Try a search with direct flights on dates in the past.
   </div>
 <% elsif flights %>
-  <%= form_with url: flights_url, method: :get do |form| %>
-    <% flights.each do |flight| %>
-      <p>
-        <strong>From:</strong>
-        <%= flight.departure_airport.name %>
-      </p>
-      <p>
-        <strong>To:</strong>
-        <%= flight.arrival_airport.name %>
-      </p>
-      <p>
-        <strong>Time:</strong>
-        <%= Time.at(flight.taking_off) %>
-      </p>
-    <% end %>
+  <%= form_with url: new_booking_url, method: :get  do |form| %>
+    <%= form.collection_radio_buttons :flight_id, flights, :id, :taking_off_string %>
+    <%= form.hidden_field :num_passengers, value: search_params[:num_passengers] %>
+    <%= form.submit 'Select' %>
   <% end %>
 <% end %>

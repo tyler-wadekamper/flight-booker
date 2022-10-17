@@ -11,7 +11,9 @@ module FlightsHelper
     else
       flights_json = JSON.parse(api_response)
       create_flights(flights_json, arrival_airport, departure_airport)
-      departure_airport.departing_flights.order(taking_off: :asc)
+      departure_airport.departing_flights.order(taking_off: :asc).select do |flight|
+        flight.arrival_airport == arrival_airport
+      end
     end
   end
 
@@ -39,7 +41,11 @@ module FlightsHelper
       next unless flight['estArrivalAirport'] == arrival_airport.identifier
 
       taking_off_epoch = flight['firstSeen']
-      departure_airport.departing_flights.create(taking_off: taking_off_epoch,
+      taking_off = Time.at(taking_off_epoch).to_datetime
+      taking_off_string = taking_off.strftime('%l:%M %p')
+
+      departure_airport.departing_flights.create(taking_off:,
+                                                 taking_off_string:,
                                                  arrival_airport_id: arrival_airport.id)
     end
   end

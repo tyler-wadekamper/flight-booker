@@ -1,7 +1,8 @@
 class CreateFlights < ActiveRecord::Migration[7.0]
   def change
     create_table :flights do |t|
-      t.bigint :taking_off
+      t.datetime :taking_off
+      t.string :taking_off_string
       t.references :departure_airport
       t.references :arrival_airport
 
