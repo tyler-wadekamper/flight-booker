@@ -1,3 +1,36 @@
-<%= form_with url: bookings_url do |form| %>
+<%= form_for @booking, url: bookings_url do |form| %>
+  <p>
+    <strong>Your Flight:</strong>
+  </p>
+  <p>
+    <%= flight.departure_airport.name %>
+    <%= " --> " %>
+    <%= flight.arrival_airport.name %>
+  </p>
+  <p>
+    <%= flight.taking_off.strftime("%A, %B %-d") %>
+  </p>
+  <p>
+    <%= flight.taking_off_string %>
+  </p>
+
+  <%= form.hidden_field :flight_id, value: flight.id %>
+  <%= form.hidden_field :id, value: @booking.id %>
+
+  <%= form.fields_for :passengers do |p_form| %>
+    <div>
+      <div>
+        <%= "Passenger:" %>
+      </div>
+
+      <%= p_form.label :full_name %>
+      <%= p_form.text_field :full_name %>
+
+      <%= p_form.label :email %>
+      <%= p_form.email_field :email %>
+    </div>
+  <% end %>
+
+  <%= form.submit 'Create Booking' %>
 <% end %>
 
