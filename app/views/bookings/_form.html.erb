@@ -2,17 +2,8 @@
   <p>
     <strong>Your Flight:</strong>
   </p>
-  <p>
-    <%= flight.departure_airport.name %>
-    <%= " --> " %>
-    <%= flight.arrival_airport.name %>
-  </p>
-  <p>
-    <%= flight.taking_off.strftime("%A, %B %-d") %>
-  </p>
-  <p>
-    <%= flight.taking_off_string %>
-  </p>
+
+  <%= render 'flights/flight', flight: flight %>
 
   <%= form.hidden_field :flight_id, value: flight.id %>
   <%= form.hidden_field :id, value: @booking.id %>

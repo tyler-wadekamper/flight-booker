@@ -13,13 +13,17 @@ class BookingsController < ApplicationController
   end
 
   def show
-    @booking = Booking.find(create_params[:id])
+    @booking = Booking.find(show_params[:id])
   end
 
   private
 
   def submit_params
     params.permit(:num_passengers, :flight_id, :commit)
+  end
+
+  def show_params
+    params.permit(:id, :commit)
   end
 
   def create_params

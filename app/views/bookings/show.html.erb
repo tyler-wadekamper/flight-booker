@@ -1,0 +1,12 @@
+<p>
+  <strong>Confirmation:</strong>
+  <%= @booking.confirmation_code %>
+</p>
+
+<p>
+  <strong>Passengers:</strong>
+  <%= @booking.passengers %>
+</p>
+
+<%= render 'flights/flight', flight: @booking.flight %>
+
