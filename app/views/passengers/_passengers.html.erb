@@ -1,0 +1,6 @@
+<% passengers.each_with_index do |passenger, count| %>
+  <strong>
+    <%= "Passenger #{count + 1}:" %>
+  </strong>
+  <%= render 'passengers/passenger', passenger: passenger %>
+<% end %>

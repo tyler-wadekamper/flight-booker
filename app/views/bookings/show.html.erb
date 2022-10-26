@@ -4,9 +4,10 @@
 </p>
 
 <p>
-  <strong>Passengers:</strong>
-  <%= @booking.passengers %>
+  <strong>Flight:</strong>
+  <%= render 'flights/flight', flight: @booking.flight %>
 </p>
 
-<%= render 'flights/flight', flight: @booking.flight %>
+<%= render 'passengers/passengers', passengers: @booking.passengers %>
+
 
