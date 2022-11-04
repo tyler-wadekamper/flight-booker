@@ -9,6 +9,10 @@ class BookingsController < ApplicationController
   def create
     @booking = Booking.create(create_params.merge(confirmation_code: Booking.generate_confirmation_code))
 
+    @booking.passengers.each do |passenger|
+      PassengerMailer.with(booking: @booking, passenger:).confirmation_email.deliver_later
+    end
+
     redirect_to booking_path(@booking.id)
   end
 

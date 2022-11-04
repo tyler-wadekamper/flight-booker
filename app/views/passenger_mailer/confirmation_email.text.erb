@@ -1,0 +1,16 @@
+Your flight is booked! Thank you for using Flight Booker.
+
+Confirmation:
+<%= @booking.confirmation_code %>
+
+Flight:
+<%= @booking.flight.departure_airport.name %>
+<%= " --> " %>
+<%= @booking.flight.arrival_airport.name %>
+<%= @booking.flight.taking_off.strftime("%A, %B %-d") %>
+<%= @booking.flight.taking_off_string %>
+
+<% @booking.passengers.each_with_index do |passenger, count| %>
+  <%= "Passenger #{count + 1}:" %>
+  <%= passenger.full_name %>
+<% end %>
